@@ -70,7 +70,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<slingshot-rb>, ["= 0.0.8"])
-      s.add_runtime_dependency(%q<mongoid>, ["~> 2.1.7"])
+      s.add_runtime_dependency(%q<mongoid>, ["> 2.1.7"])
       s.add_development_dependency(%q<bson_ext>, ["~> 1.3.1"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bluecloth>, ["~> 2.1.0"])
     else
       s.add_dependency(%q<slingshot-rb>, ["= 0.0.8"])
-      s.add_dependency(%q<mongoid>, ["~> 2.1.7"])
+      s.add_dependency(%q<mongoid>, ["> 2.1.7"])
       s.add_dependency(%q<bson_ext>, ["~> 1.3.1"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -95,7 +95,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<slingshot-rb>, ["= 0.0.8"])
-    s.add_dependency(%q<mongoid>, ["~> 2.1.7"])
+    s.add_dependency(%q<mongoid>, ["> 2.1.7"])
     s.add_dependency(%q<bson_ext>, ["~> 1.3.1"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
